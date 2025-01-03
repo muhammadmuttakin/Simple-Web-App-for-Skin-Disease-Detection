@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deteksi Penyakit Kulit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+    <div class="container py-5">
+        <h1 class="text-center text-primary mb-4">Deteksi Penyakit Kulit</h1>
+
+        <!-- Form upload -->
+        <div class="card shadow-sm p-4 mb-4">
+            <form method="POST" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="file" class="form-label">Unggah Gambar</label>
+                    <input type="file" name="file" id="file" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Deteksi</button>
+            </form>
+        </div>
+
+        <!-- Error message -->
+        {% if error %}
+        <div class="alert alert-danger text-center">
+            {{ error }}
+        </div>
+        {% endif %}
+
+        <!-- Hasil prediksi -->
+        {% if prediction %}
+        <div class="card shadow-sm p-4">
+            <h2 class="text-success text-center">Prediksi: {{ prediction }}</h2>
+            <p class="text-center">Tingkat Kepercayaan: <strong>{{ confidence }}%</strong></p>
+            <div class="text-center">
+                <img src="{{ url_for('uploaded_file', filename=filename) }}" alt="Uploaded Image" class="img-fluid rounded shadow-sm">
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
