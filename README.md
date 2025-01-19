@@ -87,8 +87,6 @@ Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
 ---
 
-## ✉️ Kontak
-Untuk pertanyaan atau diskusi lebih lanjut, hubungi saya melalui email: [email@example.com](mailto:email@example.com).
 
 ---
 
