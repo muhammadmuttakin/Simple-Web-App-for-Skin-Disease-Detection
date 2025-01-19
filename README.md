@@ -1,10 +1,14 @@
 # 🚀 Deteksi Penyakit Kulit Menggunakan Deep Learning yang Diintegrasikan ke Aplikasi Web Sederhana 🌐
+<div align="center">
+
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white&style=for-the-badge)
-![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-D00000?logo=keras&logoColor=white&style=for-the-badge)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge)
-![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black?logo=flask&logoColor=white&style=for-the-badge)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-CSS%20Framework-7952B3?logo=bootstrap&logoColor=white&style=for-the-badge)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-F7931E?logo=scikit-learn&logoColor=white&style=for-the-badge)
+![Keras](https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white&style=for-the-badge)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge)
+![Flask](https://img.shields.io/badge/Flask-black?logo=flask&logoColor=white&style=for-the-badge)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=for-the-badge)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikit-learn&logoColor=white&style=for-the-badge)
+
+</div>
 ## 📝 Tentang Proyek
 Saya senang membagikan proyek terbaru ini, di mana saya mengembangkan model **deep learning** untuk mendeteksi penyakit kulit dan mengintegrasikannya ke dalam aplikasi web sederhana. Proyek ini memanfaatkan teknologi mutakhir untuk meningkatkan aksesibilitas dan akurasi dalam diagnosis kondisi kulit.
 
